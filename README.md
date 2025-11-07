@@ -80,7 +80,7 @@ python sql_injection_scanner.py "http://example.com/page?id=1&name=test" \
 - `' UNION SELECT 1--` - Union-based injection
 - `'; DROP TABLE users--` - Destructive test (safe in most cases)
 
-## 🔴 Red Team / 🔵 Blue Team Usage
+## Red Team / Blue Team Usage
 
 **Red Team (Offensive Security):**
 - Penetration testing authorized targets
@@ -96,7 +96,7 @@ python sql_injection_scanner.py "http://example.com/page?id=1&name=test" \
 
 ## Legal Disclaimer
 
-⚠️ **IMPORTANT**: This tool is for educational and authorized testing purposes only.
+This tool is for educational and authorized testing purposes only.
 
 - Only test applications you own or have explicit written permission to test
 - Unauthorized testing may be illegal in your jurisdiction
